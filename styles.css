@@ -1,0 +1,119 @@
+.navbar-google{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	
+}
+.navbar-item{
+	margin: 10px;
+}
+a:link {
+	color: black;
+	text-decoration: none;
+
+}
+a:hover{
+	color:black;
+
+}
+a:visited{
+	color: black;
+}
+a:active{
+	color: black;
+}
+.position{
+	display: flex;
+	justify-content: center;
+
+
+}
+.roundinput
+	{
+		display: flex;
+		z-index: 3;
+		position: relative;
+		min-height: 44px;
+		background: white;
+		border: 1px solid wheat;
+		box-shadow: none;
+		border-radius: 24px;
+		margin: 0 auto;
+		width: 584px;
+		margin-top: 10px;
+		max-width: 584px;
+	}
+.button-google{
+	background-color: white;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: black;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.center {
+	justify-content: center;
+}
+.bar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+.roll{
+	border-bottom: 1px solid #ebebeb;
+}
+
+.find{
+	font-size: 16px;
+	color: 333333;
+	margin: 50px;
+
+}
+.col1{
+	height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.word
+{
+	
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+.rollinput{ 
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.left{
+	width: 200px;
+}
+
+.right{
+	width:385px;
+}
+
+
+.hein {
+	display: flex;
+    margin-top: 20px ;
+	width: 635px;
+	justify-content: flex-end;
+}
